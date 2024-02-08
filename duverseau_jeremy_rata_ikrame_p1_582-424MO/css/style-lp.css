@@ -1,0 +1,17 @@
+/*----- Styles Généraux -----*/
+:root {
+  --orange: #fca311;
+  --navy: #14213d;
+  --light-grey: #e5e5e5;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+body {
+  background-color: var(--navy);
+}
+
+p {
+  color: var(--light-grey);
+}
+/*----- Section Hero -----*/

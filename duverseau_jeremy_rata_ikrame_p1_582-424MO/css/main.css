@@ -1,0 +1,68 @@
+@font-face {
+  src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap")
+    format("opentype");
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --orange: #fca311;
+  --navy: #14213d;
+  --light-grey: #e5e5e5;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+/*----- Niveaux de titres -----*/
+
+h1,
+.h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--white);
+}
+
+h2,
+.h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--ma-couleur-primaire);
+}
+
+h3,
+.h3 {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--ma-couleur-primaire);
+}
+
+h4,
+.h4 {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--ma-couleur-primaire);
+}
+
+h2,
+.h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--ma-couleur-primaire);
+}
+
+h5,
+.h5 {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--ma-couleur-primaire);
+}
+
+h6,
+.h6 {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--ma-couleur-primaire);
+}
+
+/*----- Styles Généraux -----*/
+
+/*----- Section Hero -----*/

@@ -1,4 +1,97 @@
-
-/*----- Styles Généraux -----*/
-
-/*----- Section Hero -----*/
+@font-face {
+    src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap")
+      format("opentype");
+    font-family: "Poppins", sans-serif;
+  }
+  
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+  
+  :root {
+    --orange: #fca311;
+    --navy: #14213d;
+    --light-grey: #e5e5e5;
+    --white: #ffffff;
+    --black: #000000;
+  }
+  
+  /*----- Navbar -----*/
+  .navbar {
+    background-color: var(--white);
+  }
+  
+  .nav-logo-img {
+    max-width: 64px;
+    height: auto;
+  }
+  
+  .user-profil-icon {
+    max-width: 64px;
+    height: auto;
+  }
+  
+  /*----- Footer -----*/
+  .footer {
+    background-color: var(--navy);
+    color: var(--light-grey);
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*----- Main -----*/
+  main {
+    padding-top: 70px;
+  }
+  
+  /*----- Formulaire de recherche et liste de filtres -----*/
+  .searchbar {
+    margin: 20px 0;
+  }
+  
+  .filter-bar {
+    overflow: hidden;
+    margin: 0 15px;
+  }
+  
+  .button-list {
+    list-style: none;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .button-list li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /*----- Styles Généraux -----*/
+  .custom-btn {
+    background-color: var(--orange);
+    color: var(--white);
+  }
+  
+  .custom-btn:active {
+    background-color: var(--white);
+    border-color: var(--orange);
+    color: var(--orange);
+  }
+  
+  .search-input {
+    position: relative;
+  }
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: var(--navy);
+  }
+  .search-input input {
+    padding-left: 30px;
+    color: var(--navy);
+  }
+  /*----- Section Hero -----*/
+  

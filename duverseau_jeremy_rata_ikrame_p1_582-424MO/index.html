@@ -14,9 +14,10 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/style-lp.css" />
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark">
+        <!--Le fixed top ne marche pas lorsque je lapplique pour fixer ma barre-->
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <?xml version="1.0" encoding="UTF-8"?>
@@ -85,10 +86,13 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#nos-tarifs">Nos tarifs</a>
+                  <a class="nav-link" href="#en-savoir-plus">En savoir plus</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#en-savoir-plus">En savoir plus</a>
+                  <a class="nav-link" href="#temoignages">Témoignages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#infolettre">Infolettre</a>
                 </li>
               </ul>
             </div>
@@ -96,31 +100,47 @@
         </div>
       </nav>
     </header>
-
     <main>
-      <section id="accueil">
-        <!-- Contenu de la section Accueil -->
+      <section id="lappli" class="container">
+        <div class="row">
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="container">
+              <h1>Artfutura</h1>
+              <p>
+                Découvrez le futur de l'art au bout de vos doigts avec notre
+                application Futura. Simplifiez votre expérience et explorez le
+                festival d'art en toute facilité.
+              </p>
+              <a href="#" class="btn ensavoirplus-btn">En savoir plus</a>
+              <a href="#" class="btn telecharger-btn">Télécharger</a>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="mobile-frame">
+              <iframe
+                src="./app/index.html"
+                frameborder="0"
+                scrolling="no"
+              ></iframe>
+            </div>
+          </div>
+        </div>
       </section>
-
       <section id="fonctionnalites">
         <!-- Contenu de la section Fonctionnalités -->
       </section>
 
-      <section id="nos-tarifs">
+      <section id="en-savoir-plus">
         <!-- Contenu de la section Nos tarifs -->
       </section>
 
-      <section id="en-savoir-plus">
-        <!-- Contenu de la section En savoir plus -->
+      <section id="temoignages">
+        <!-- Contenu de la section temoignages -->
       </section>
-      <div class="container">
-        <h1>Contenu principal</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et est
-          ligula. Donec fringilla diam eu velit rhoncus, nec consectetur lorem
-          interdum.
-        </p>
-      </div>
+      <section id="infolettre">
+        <!-- Contenu de la section infolettre-->
+      </section>
+      <div class="container"></div>
     </main>
 
     <footer

@@ -9,16 +9,36 @@
 
 body {
   background-color: var(--navy);
-}
-
-p {
   color: var(--light-grey);
 }
+
 .navbar-brand {
   width: 70px;
   height: auto;
 }
+
 /*----- Section Hero -----*/
+h1 {
+  padding-top: 5%;
+}
+
+.ensavoirplus-btn,
+.telecharger-btn {
+  background-color: var(--navy);
+  border: 2px solid white;
+  color: var(--orange);
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.mobile-frame iframe {
+  width: 100%;
+  max-width: 70%;
+  height: calc(9 / 5 * 100%);
+  border: 2px solid var(--white);
+  border-radius: 30px;
+  display: flex;
+}
 
 /*----- Section Footer -----*/
 footer p > a[href="https://github.com/ikramert/ikrame-jeremy-app-festival-art/tree/main"]

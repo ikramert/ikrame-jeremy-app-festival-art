@@ -12,6 +12,10 @@ body {
   color: var(--light-grey);
 }
 
+main {
+  padding: 180px;
+}
+
 .navbar-brand {
   width: 70px;
   height: auto;

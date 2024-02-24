@@ -12,8 +12,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="/css/style-app.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/style-app.css" />
   </head>
   <body>
     <header>
@@ -33,13 +33,13 @@
 
           <!-- Logo -->
           <a class="nav-logo">
-            <img src="/assets/logo/logo_festival.png" class="nav-logo-img" />
+            <img src="../assets/logo/logo_festival.png" class="nav-logo-img" />
           </a>
 
           <!-- Profil Utilisateur -->
           <a>
             <img
-              src="/assets/images/svg/icone_profil_utilisateur.svg"
+              src="../assets/images/svg/icone_profil_utilisateur.svg"
               class="user-profil-icon"
             />
           </a>
@@ -102,6 +102,39 @@
             </ul>
           </div>
         </footer>
+        <!--Section Cartes-->
+        <section class="container">
+          <h2>En Vedette</h2>
+          <div class="row" style="overflow: hidden;">
+            <div class="col-4 card-col">
+              <a class="card" href="artwork.html">
+                <img src="image.png" class="card-img-top card-image">
+                <div class="card-body">
+                  <h5 class="card-title">Titre</h5>
+                  <p class="card-text">Description</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 card-col">
+              <a class="card" href="artwork.html">
+                <img src="image.png" class="card-img-top card-image">
+                <div class="card-body">
+                  <h5 class="card-title">Titre</h5>
+                  <p class="card-text">Description</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-4 card-col">
+              <a class="card" href="artwork.html">
+                <img src="image.png" class="card-img-top card-image">
+                <div class="card-body">
+                  <h5 class="card-title">Titre</h5>
+                  <p class="card-text">Description</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
 
@@ -112,8 +145,8 @@
           <div class="col-12 col-sm-6">
             <p>Projet fictif réalisé dans le cadre du cours Optimisation Web 582-424MO. UI de l'app créé par Jérémy Duverseau.</p>
           </div>
-          <div class="col-12 col-sm-6">
-            <img src="https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg" alt="Logo TIM">
+          <div class="col-12 col-sm-6 tim-colone">
+            <img src="https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg" alt="Logo TIM" class="tim-logo">
           </div>
         </div>
       </div>
@@ -124,6 +157,6 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <script src="/js/script.js"></script>
+    <script src="../js/script.js"></script>
   </body>
 </html>

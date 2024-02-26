@@ -118,15 +118,23 @@ main {
 
 #sectionVedette h5 {
   font-size: 1.2em;
+  margin-bottom: 2px;
 }
 
 #sectionVedette p {
   font-size: 0.9em;
+  margin-bottom: 10px;
 }
 
 .carteDH {
   font-size: 0.7em;
   color: var(--white);
+}
+
+.carte-info {
+  margin-top: 15px;
+  font-size: 0.7em;
+  color: var(--orange);
 }
 
 /*----- Section Autres -----*/
@@ -142,10 +150,12 @@ main {
 
 #sectionAutres h5 {
   font-size: 1.2em;
+  margin-bottom: 2px;
 }
 
 #sectionAutres p {
   font-size: 0.9em;
+  margin-bottom: 10px;
 }
 
 #sectionAutres img {

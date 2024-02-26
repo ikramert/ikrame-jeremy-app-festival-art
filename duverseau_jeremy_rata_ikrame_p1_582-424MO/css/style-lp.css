@@ -1,4 +1,10 @@
 /*----- Styles Généraux -----*/
+@font-face {
+  src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap")
+    format("opentype");
+  font-family: "Poppins", sans-serif;
+}
+
 :root {
   --orange: #fca311;
   --navy: #14213d;
@@ -10,6 +16,7 @@
 body {
   background-color: var(--navy);
   color: var(--light-grey);
+  font-family: "Poppins";
 }
 
 main {
@@ -21,7 +28,16 @@ main {
   height: auto;
 }
 
+.description-app {
+  font-size: 1.3rem;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
 /*----- Section Hero -----*/
+
 h1 {
   padding-top: 5%;
 }
@@ -32,7 +48,7 @@ h1 {
   border: 2px solid white;
   color: var(--orange);
   margin-left: 2%;
-  margin-top: 2%;
+  margin-top: 4%;
 }
 
 .mobile-frame iframe {
@@ -42,6 +58,23 @@ h1 {
   border: 2px solid var(--white);
   border-radius: 30px;
   display: flex;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-text {
+  margin-top: 5%;
+  font-size: 100%;
+  color: var(--black);
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: var(--black);
 }
 
 /*----- Section Footer -----*/

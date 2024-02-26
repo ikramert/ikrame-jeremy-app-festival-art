@@ -11,8 +11,17 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/style-lp.css" />
+    <link
+      rel="stylesheet"
+      href="./scss/custom_bootstrap.scss"
+      type="text/sass"
+    />
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <header>
@@ -76,7 +85,7 @@
             <div class="container-lg">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#lappli"
+                  <a class="nav-link" aria-current="page" href="#appli"
                     >L'appli</a
                   >
                 </li>
@@ -101,46 +110,175 @@
       </nav>
     </header>
     <main>
-      <section id="lappli" class="container">
-        <div class="row">
-          <div class="col-lg-6 mt-4 mt-lg-0">
-            <div class="container">
-              <h1>Artfutura</h1>
-              <p>
-                Découvrez le futur de l'art au bout de vos doigts avec notre
-                application Futura. Simplifiez votre expérience et explorez le
-                festival d'art en toute facilité.
-              </p>
-              <a href="#" class="btn ensavoirplus-btn">En savoir plus</a>
-              <a href="#" class="btn telecharger-btn">Télécharger</a>
+      <section id="appli">
+        <!-- Contenu de la section appli -->
+        <section id="lappli" class="container">
+          <div class="row">
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <div class="container">
+                <h1>Artfutura</h1>
+                <p class="description-app">
+                  Découvrez le futur de l'art au bout de vos doigts avec notre
+                  application Futura. Simplifiez votre expérience et explorez le
+                  festival d'art en toute facilité.
+                </p>
+                <a href="#" class="btn btn-lg btn-secondary ensavoirplus-btn"
+                  >En savoir plus</a
+                >
+                <a href="#" class="btn btn-lg btn-secondary telecharger-btn"
+                  >Télécharger</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <div class="mobile-frame">
+                <iframe
+                  src="./app/index.html"
+                  frameborder="0"
+                  scrolling="no"
+                ></iframe>
+              </div>
             </div>
           </div>
-          <div class="col-lg-6 mt-4 mt-lg-0">
-            <div class="mobile-frame">
-              <iframe
-                src="./app/index.html"
-                frameborder="0"
-                scrolling="no"
-              ></iframe>
-            </div>
-          </div>
-        </div>
+        </section>
       </section>
+
       <section id="fonctionnalites">
-        <!-- Contenu de la section Fonctionnalités -->
+        <!-- Contenu de la section fonctionnalites -->
+        <!-- Section Hero -->
+        <section class="hero px-lg-5">
+          <!-- Section Features -->
+          <section id="section-features" class="mt-5 mb-5">
+            <div class="container">
+              <!-- Première rangée pour le titre et le paragraphe -->
+              <div class="row">
+                <div class="col">
+                  <h2 class="text-center">Nos Fonctionnalités</h2>
+                  <p class="text-center">
+                    Découvrez toutes les fonctionnalités de notre application et
+                    vivez une expérience immersive au Futura Festival !
+                  </p>
+                </div>
+              </div>
+
+              <!-- Deuxième rangée pour les six colonnes -->
+              <div class="row">
+                <!-- Colonnes pour les fonctionnalités -->
+                <!-- Première fonctionnalité : Notifications -->
+                <div class="col-md-6 col-lg-4 mt-4 mb-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center">
+                        <i class="bi bi-bell fs-3 me-3"></i>
+                        <h5 class="card-title mb-0">Notifications</h5>
+                      </div>
+                      <p class="card-text">
+                        Restez informé en temps réel de tous les événements du
+                        Futura Festival grâce à nos notifications !
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Deuxième fonctionnalité : Séances -->
+                <div class="col-md-6 col-lg-4 mt-4 mb-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center">
+                        <i class="bi bi-calendar fs-3 me-3"></i>
+                        <h5 class="card-title mb-0">Séances</h5>
+                      </div>
+                      <p class="card-text">
+                        Assistez à des séances éducatives exclusives sur l'art
+                        via notre application au Futura Festival !
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Troisième fonctionnalité : Catalogue -->
+                <div class="col-md-6 col-lg-4 mt-4 mb-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center">
+                        <i class="bi bi-journal fs-3 me-3"></i>
+                        <h5 class="card-title mb-0">Catalogue</h5>
+                      </div>
+                      <p class="card-text">
+                        Découvrez le catalogue artistique et laissez-vous
+                        inspirer par une variété d'œuvres interactives !
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Quatrième fonctionnalité : Planifiez votre visite -->
+                <div class="col-md-6 col-lg-4 mt-4 mb-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center">
+                        <i class="bi bi-map fs-3 me-3"></i>
+                        <h5 class="card-title mb-0">Planifiez votre visite</h5>
+                      </div>
+                      <p class="card-text">
+                        Consultez les horaires et créez votre itinéraire
+                        personnalisé en quelques clics.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Cinquième fonctionnalité : Billets -->
+                <div class="col-md-6 col-lg-4 mt-4 mb-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center">
+                        <i class="bi bi-ticket fs-3 me-3"></i>
+                        <h5 class="card-title mb-0">Billets</h5>
+                      </div>
+                      <p class="card-text">
+                        Achetez facilement vos billets en ligne pour le
+                        festival.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Sixième fonctionnalité : Carte interactive -->
+                <div class="col-md-6 col-lg-4 mt-4 mb-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center">
+                        <i class="bi bi-geo-alt fs-3 me-3"></i>
+                        <h5 class="card-title mb-0">Carte interactive</h5>
+                      </div>
+                      <p class="card-text">
+                        Trouvez votre chemin dans l'exposition grâce à notre
+                        carte interactive.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Fin de la deuxième rangée -->
+            </div>
+            <!-- Fin du container -->
+          </section>
+          <!-- Fin de la section Features -->
+        </section>
       </section>
 
       <section id="en-savoir-plus">
-        <!-- Contenu de la section Nos tarifs -->
+        <!-- Contenu de la section en savoir plus -->
       </section>
 
       <section id="temoignages">
         <!-- Contenu de la section temoignages -->
       </section>
+
       <section id="infolettre">
         <!-- Contenu de la section infolettre-->
       </section>
-      <div class="container"></div>
     </main>
 
     <footer

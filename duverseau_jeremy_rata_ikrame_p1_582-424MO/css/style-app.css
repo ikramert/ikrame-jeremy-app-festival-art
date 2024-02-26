@@ -40,18 +40,6 @@
   align-items: center;
 }
 
-.tim-colone {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
-
-.tim-logo {
-  max-width: 200px;
-  margin: auto;
-}
-
 /*----- Main -----*/
 main {
   padding-top: 70px;
@@ -77,18 +65,6 @@ main {
 .button-list li {
   display: inline-block;
   margin-right: 10px;
-}
-
-/*----- Section Carte -----*/
-
-.card-image {
-  height: 20vh;
-  object-fit: none;
-}
-
-.card {
-  text-decoration: none;
-  margin: 10px;
 }
 
 /*----- Styles Généraux -----*/

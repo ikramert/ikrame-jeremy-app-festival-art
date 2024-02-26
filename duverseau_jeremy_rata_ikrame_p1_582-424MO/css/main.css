@@ -25,44 +25,46 @@ h2,
 .h2 {
   font-size: 34px;
   font-weight: 700;
-  color: var(--ma-couleur-primaire);
+  color: var(--white);
 }
 
 h3,
 .h3 {
   font-size: 34px;
   font-weight: 700;
-  color: var(--ma-couleur-primaire);
+  color: var(--white);
 }
 
 h4,
 .h4 {
   font-size: 34px;
   font-weight: 700;
-  color: var(--ma-couleur-primaire);
+  color: var(--white);
 }
 
 h2,
 .h2 {
   font-size: 34px;
   font-weight: 700;
-  color: var(--ma-couleur-primaire);
+  color: var(--dark);
 }
 
 h5,
 .h5 {
   font-size: 34px;
   font-weight: 700;
-  color: var(--ma-couleur-primaire);
+  color: var(--white);
 }
 
 h6,
 .h6 {
   font-size: 34px;
   font-weight: 700;
-  color: var(--ma-couleur-primaire);
+  color: var(--white);
 }
 
 /*----- Styles Généraux -----*/
-
+p {
+  color: var(--light-grey);
+}
 /*----- Section Hero -----*/

@@ -18,7 +18,6 @@
 
 body {
   background-color: var(--primary);
-  color: var(--info);
   font-family: "Poppins";
 }
 
@@ -45,6 +44,11 @@ h1 {
   padding-top: 5%;
 }
 
+.text-fonctionnalites,
+.text-temoignanes {
+  color: var(--secondary);
+}
+
 .ensavoirplus-btn,
 .telecharger-btn {
   background-color: var(--primary);
@@ -56,21 +60,18 @@ h1 {
 
 .mobile-frame iframe {
   width: 100%;
-  max-width: 70%;
-  height: calc(9 / 5 * 100%);
+  max-width: 80%;
+  height: calc(5 / 9 * 100%);
   border: 2px solid var(--white);
   border-radius: 30px;
-  display: flex;
 }
 
 .card {
   height: 100%;
-  background-color: #f0b275;
 }
 
 .card-text {
   margin-top: 5%;
-  font-size: 100%;
   font-weight: 600;
   color: var(--dark);
 }
@@ -81,8 +82,12 @@ h1 {
   color: var(--dark);
 }
 
-.appinfo {
+.text-temoignages {
   font-size: 1.2rem;
+}
+
+#faq {
+  margin-top: 10%;
 }
 
 #infolettre {
@@ -90,11 +95,16 @@ h1 {
   color: var(--dark);
   background-size: cover;
   background-position: center;
+  margin-top: 10%;
 }
 
-.infolettre-content {
-  background-color: rgba(255, 255, 255, 0.7);
+.infolettre-content-container {
+  width: 50%;
+  background-color: var(--secondary);
+  color: var(--dark);
   padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 /*----- Section Footer -----*/
 footer p > a[href="https://github.com/ikramert/ikrame-jeremy-app-festival-art/tree/main"]

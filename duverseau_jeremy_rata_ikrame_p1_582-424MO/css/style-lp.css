@@ -6,16 +6,19 @@
 }
 
 :root {
-  --orange: #fca311;
-  --navy: #14213d;
-  --light-grey: #e5e5e5;
   --white: #ffffff;
-  --black: #000000;
+  --dark: #000000;
+  --primary: #14213d;
+  --secondary: #fca311;
+  --info: #e5e5e5;
+  --success: #06b96a;
+  --warning: #e9d005;
+  --danger: #fc1702;
 }
 
 body {
-  background-color: var(--navy);
-  color: var(--light-grey);
+  background-color: var(--primary);
+  color: var(--info);
   font-family: "Poppins";
 }
 
@@ -24,7 +27,7 @@ main {
 }
 
 .navbar-brand {
-  width: 70px;
+  width: 5%;
   height: auto;
 }
 
@@ -44,9 +47,9 @@ h1 {
 
 .ensavoirplus-btn,
 .telecharger-btn {
-  background-color: var(--navy);
+  background-color: var(--primary);
   border: 2px solid white;
-  color: var(--orange);
+  color: var(--secondary);
   margin-left: 2%;
   margin-top: 4%;
 }
@@ -62,26 +65,42 @@ h1 {
 
 .card {
   height: 100%;
+  background-color: #f0b275;
 }
 
 .card-text {
   margin-top: 5%;
   font-size: 100%;
-  color: var(--black);
+  font-weight: 600;
+  color: var(--dark);
 }
 
 .card-title {
   text-align: center;
-  font-weight: bold;
   font-size: 1.6rem;
-  color: var(--black);
+  color: var(--dark);
 }
 
+.appinfo {
+  font-size: 1.2rem;
+}
+
+#infolettre {
+  background-image: url("../assets/images/gallery.jpg");
+  color: var(--dark);
+  background-size: cover;
+  background-position: center;
+}
+
+.infolettre-content {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+}
 /*----- Section Footer -----*/
 footer p > a[href="https://github.com/ikramert/ikrame-jeremy-app-festival-art/tree/main"]
 {
   text-decoration: underline;
-  color: var(--light-grey);
+  color: var(--info);
   transition: font-size 0.2s;
 }
 

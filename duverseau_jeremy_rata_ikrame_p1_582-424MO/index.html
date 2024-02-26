@@ -95,7 +95,7 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#en-savoir-plus">En savoir plus</a>
+                  <a class="nav-link" href="#faq">Foire aux questions</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#temoignages">Témoignages</a>
@@ -110,8 +110,8 @@
       </nav>
     </header>
     <main>
+      <!-- Section appli -->
       <section id="appli">
-        <!-- Contenu de la section appli -->
         <section id="lappli" class="container">
           <div class="row">
             <div class="col-lg-6 mt-4 mt-lg-0">
@@ -125,7 +125,7 @@
                 <a href="#" class="btn btn-lg btn-secondary ensavoirplus-btn"
                   >En savoir plus</a
                 >
-                <a href="#" class="btn btn-lg btn-secondary telecharger-btn"
+                <a href="#faq" class="btn btn-lg btn-secondary telecharger-btn"
                   >Télécharger</a
                 >
               </div>
@@ -142,9 +142,8 @@
           </div>
         </section>
       </section>
-
+      <!-- Section fonctionnalites -->
       <section id="fonctionnalites">
-        <!-- Contenu de la section fonctionnalites -->
         <!-- Section Hero -->
         <section class="hero px-lg-5">
           <!-- Section Features -->
@@ -154,13 +153,12 @@
               <div class="row">
                 <div class="col">
                   <h2 class="text-center">Nos Fonctionnalités</h2>
-                  <p class="text-center">
+                  <p class="appinfo text-center">
                     Découvrez toutes les fonctionnalités de notre application et
                     vivez une expérience immersive au Futura Festival !
                   </p>
                 </div>
               </div>
-
               <!-- Deuxième rangée pour les six colonnes -->
               <div class="row">
                 <!-- Colonnes pour les fonctionnalités -->
@@ -268,16 +266,231 @@
         </section>
       </section>
 
-      <section id="en-savoir-plus">
-        <!-- Contenu de la section en savoir plus -->
+      <!-- Section infolettre -->
+      <section id="infolettre" class="container">
+        <div class="row">
+          <div class="col-md-6 order-md-last text-center text-md-start">
+            <div class="infolettre-content">
+              <h2>Infolettre</h2>
+              <p>
+                Abonnez-vous à notre infolettre pour recevoir des nouvelles sur
+                les mises à jour et nouvelles fonctionnalités de l'application,
+                en plus de recevoir en primeur les détails des prochaines
+                éditions du festival.
+              </p>
+              <button class="btn btn-primary btn-lg">Je m'abonne</button>
+            </div>
+          </div>
+        </div>
       </section>
 
+      <!-- Section temoignanes -->
       <section id="temoignages">
         <!-- Contenu de la section temoignages -->
       </section>
+      <!-- Section FAQ -->
+      <section id="faq" class="container">
+        <h2 class="text-center">FAQ - Foire aux questions</h2>
+        <div class="accordion" id="faqAccordion">
+          <!-- Question 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="question1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse1"
+                aria-expanded="false"
+                aria-controls="collapse1"
+              >
+                Comment télécharger l'application ?
+              </button>
+            </h2>
+            <div
+              id="collapse1"
+              class="accordion-collapse collapse"
+              aria-labelledby="question1"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                L'application Futura Festival est disponible au téléchargement
+                sur les principales plateformes de téléchargement d'applications
+                mobiles telles que l'App Store pour les appareils iOS et Google
+                Play Store pour les appareils Android. Vous pouvez rechercher
+                "Futura Festival" dans le magasin d'applications correspondant
+                et télécharger l'application gratuitement.
+              </div>
+            </div>
+          </div>
 
-      <section id="infolettre">
-        <!-- Contenu de la section infolettre-->
+          <!-- Question 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="question2">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse2"
+                aria-expanded="false"
+                aria-controls="collapse2"
+              >
+                Comment fonctionnent les notifications en temps réel pour les
+                événements du festival ?
+              </button>
+            </h2>
+            <div
+              id="collapse2"
+              class="accordion-collapse collapse"
+              aria-labelledby="question2"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Les notifications en temps réel pour les événements du Futura
+                Festival sont activées par défaut dans l'application une fois
+                que vous l'avez installée et que vous avez autorisé les
+                notifications. Vous recevrez des notifications pour les
+                événements programmés, les changements d'horaire, les mises à
+                jour importantes et d'autres informations pertinentes liées au
+                festival.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="question3">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse3"
+                aria-expanded="false"
+                aria-controls="collapse3"
+              >
+                Comment participer aux séances éducatives exclusives disponibles
+                via l'application ?
+              </button>
+            </h2>
+            <div
+              id="collapse3"
+              class="accordion-collapse collapse"
+              aria-labelledby="question3"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Pour créer un itinéraire personnalisé dans l'application Futura
+                Festival, vous pouvez parcourir la liste des événements et des
+                activités disponibles. Ensuite, vous pouvez sélectionner les
+                événements que vous souhaitez ajouter à votre itinéraire en
+                cliquant sur le bouton "Ajouter à l'itinéraire" ou similaire.
+                Une fois que vous avez ajouté tous vos événements préférés, vous
+                pouvez consulter votre itinéraire personnalisé pour planifier
+                votre visite au festival.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="question4">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse4"
+                aria-expanded="false"
+                aria-controls="collapse4"
+              >
+                Comment contacter le support technique en cas de problème avec
+                l'application ?
+              </button>
+            </h2>
+            <div
+              id="collapse4"
+              class="accordion-collapse collapse"
+              aria-labelledby="question4"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Si vous rencontrez des problèmes techniques avec l'application
+                Futura Festival, vous pouvez contacter notre équipe d'assistance
+                technique en envoyant un e-mail à support@futurafestival.com ou
+                en utilisant le formulaire de contact disponible dans
+                l'application. Notre équipe se fera un plaisir de vous aider à
+                résoudre tout problème que vous pourriez rencontrer.
+              </div>
+            </div>
+          </div>
+          <!-- Question 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="question5">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse5"
+                aria-expanded="false"
+                aria-controls="collapse5"
+              >
+                Comment partager mes expériences et mes découvertes du festival
+                via l'application sur les réseaux sociaux ?
+              </button>
+            </h2>
+            <div
+              id="collapse5"
+              class="accordion-collapse collapse"
+              aria-labelledby="question5"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Pour partager vos expériences et vos découvertes du Futura
+                Festival sur les réseaux sociaux via l'application, vous pouvez
+                utiliser la fonction de partage intégrée. Après avoir assisté à
+                un événement ou découvert une œuvre qui vous a plu, recherchez
+                l'option de partage dans l'application et choisissez le réseau
+                social sur lequel vous souhaitez partager. Vous pouvez également
+                inclure un commentaire ou une légende pour accompagner votre
+                publication avant de la partager avec vos amis et abonnés.
+              </div>
+            </div>
+          </div>
+          <!-- Question 6 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="question6">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse6"
+                aria-expanded="false"
+                aria-controls="collapse6"
+              >
+                Comment utiliser la carte interactive pour trouver des œuvres
+                spécifiques dans l'exposition ?
+              </button>
+            </h2>
+            <div
+              id="collapse6"
+              class="accordion-collapse collapse"
+              aria-labelledby="question6"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Pour utiliser la carte interactive dans l'application Futura
+                Festival, vous pouvez accéder à la section "Carte" ou "Plan" de
+                l'application. Sur la carte, vous verrez une représentation
+                graphique de l'emplacement des différentes œuvres et
+                installations dans l'exposition. Vous pouvez zoomer et faire
+                défiler la carte pour explorer les différents espaces du
+                festival. En cliquant sur une icône ou une zone spécifique de la
+                carte, vous pourrez obtenir plus d'informations sur les œuvres
+                exposées à cet endroit. Cette fonctionnalité vous aidera à
+                naviguer facilement dans l'exposition et à trouver les œuvres
+                spécifiques que vous souhaitez découvrir.
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 

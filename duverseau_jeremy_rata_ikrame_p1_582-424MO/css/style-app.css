@@ -40,6 +40,17 @@
   align-items: center;
 }
 
+.tim-logo {
+  width: 200px;
+}
+
+.tim-colone {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*----- Main -----*/
 main {
   padding-top: 70px;

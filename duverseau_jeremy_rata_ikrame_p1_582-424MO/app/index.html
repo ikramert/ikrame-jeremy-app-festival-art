@@ -11,7 +11,10 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/style-app.css" />
   </head>
@@ -64,7 +67,6 @@
               </li>
             </ul>
           </div>
-
         </div>
       </nav>
     </header>
@@ -76,9 +78,13 @@
           <form class="searchbar">
             <div class="search-input">
               <i class="bi bi-search search-icon"></i>
-              <input class="form-control form-control-lg" type="text" placeholder="Rechercher une oeuvre, un artiste..." aria-label=".form-control-lg example">
+              <input
+                class="form-control form-control-lg"
+                type="text"
+                placeholder="Rechercher une oeuvre, un artiste..."
+                aria-label=".form-control-lg example"
+              />
             </div>
-          </div>
           </form>
         </header>
         <footer class="row">
@@ -88,13 +94,17 @@
                 <button type="button" class="btn custom-btn">Toutes</button>
               </li>
               <li>
-                <button type="button" class="btn custom-btn">Installations interavtives</button>
+                <button type="button" class="btn custom-btn">
+                  Installations interavtives
+                </button>
               </li>
               <li>
                 <button type="button" class="btn custom-btn">Concerts</button>
               </li>
               <li>
-                <button type="button" class="btn custom-btn">Performances</button>
+                <button type="button" class="btn custom-btn">
+                  Performances
+                </button>
               </li>
               <li>
                 <button type="button" class="btn custom-btn">AR/VR</button>
@@ -103,33 +113,66 @@
           </div>
         </footer>
         <!--Section Cartes-->
-        <section class="container">
+        <section class="container" id="sectionCartes">
           <h2>En Vedette</h2>
-          <div class="row" style="overflow: hidden;">
-            <div class="col-4 card-col">
-              <a class="card" href="artwork.html">
-                <img src="image.png" class="card-img-top card-image">
-                <div class="card-body">
-                  <h5 class="card-title">Titre</h5>
-                  <p class="card-text">Description</p>
+          <div class="row overflow-hidden">
+            <div class="col-4">
+              <a class="card text-bg-dark" href="artwork.html">
+                <img
+                  src="../assets/artworks/universal-everything_transfiguration.gif"
+                  class="card-image"
+                />
+                <div class="gradient-overlay"></div>
+                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                  <h5 class="card-title">Universal Everything</h5>
+                  <p class="card-text">Par Transfiguration</p>
+                  <div class="row justify-content-between carteDH">
+                    <div class="col-auto">
+                      <i class="bi bi-calendar-fill"></i> 14 mars 2024
+                    </div>
+                    <div class="col-auto">
+                      <i class="bi bi-clock-fill"></i> 15h30
+                    </div>
+                  </div>
                 </div>
               </a>
             </div>
-            <div class="col-4 card-col">
-              <a class="card" href="artwork.html">
-                <img src="image.png" class="card-img-top card-image">
-                <div class="card-body">
-                  <h5 class="card-title">Titre</h5>
-                  <p class="card-text">Description</p>
+            <div class="col-4">
+              <a class="card text-bg-dark" href="artwork.html">
+                <img
+                  src="../assets/artworks/humanized-technology_alejandro_sacristan.gif"
+                  class="card-image"
+                />
+                <div class="gradient-overlay"></div>
+                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                  <h5 class="card-title">Humanized Technology</h5>
+                  <p class="card-text">Par Alejandro Sacristán</p>
+                  <div class="row justify-content-between carteDH">
+                    <div class="col-auto">
+                      <i class="bi bi-calendar-fill"></i> 14 mars 2024
+                    </div>
+                    <div class="col-auto">
+                      <i class="bi bi-clock-fill"></i> 15h30
+                    </div>
+                  </div>
                 </div>
               </a>
             </div>
-            <div class="col-4 card-col">
-              <a class="card" href="artwork.html">
-                <img src="image.png" class="card-img-top card-image">
-                <div class="card-body">
-                  <h5 class="card-title">Titre</h5>
-                  <p class="card-text">Description</p>
+            <div class="col-4">
+              <a class="card text-bg-dark" href="artwork.html">
+                <img src="../assets/artworks/refik-anadol_casa-batllo.jpg" class="card-image" />
+                <div class="gradient-overlay"></div>
+                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                  <h5 class="card-title">Refik Anadol</h5>
+                  <p class="card-text">Casa Batlló</p>
+                  <div class="row justify-content-between carteDH">
+                    <div class="col-auto">
+                      <i class="bi bi-calendar-fill"></i> 14 mars 2024
+                    </div>
+                    <div class="col-auto">
+                      <i class="bi bi-clock-fill"></i> 15h30
+                    </div>
+                  </div>
                 </div>
               </a>
             </div>
@@ -143,10 +186,17 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-6">
-            <p>Projet fictif réalisé dans le cadre du cours Optimisation Web 582-424MO. UI de l'app créé par Jérémy Duverseau.</p>
+            <p>
+              Projet fictif réalisé dans le cadre du cours Optimisation Web
+              582-424MO. UI de l'app créé par Jérémy Duverseau.
+            </p>
           </div>
           <div class="col-12 col-sm-6 tim-colone">
-            <img src="https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg" alt="Logo TIM" class="tim-logo">
+            <img
+              src="https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg"
+              alt="Logo TIM"
+              class="tim-logo"
+            />
           </div>
         </div>
       </div>

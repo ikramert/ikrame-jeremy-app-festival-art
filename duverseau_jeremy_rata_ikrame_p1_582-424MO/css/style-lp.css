@@ -59,9 +59,8 @@ h1 {
 }
 
 .mobile-frame iframe {
-  width: 100%;
-  max-width: 80%;
-  height: calc(5 / 9 * 100%);
+  width: 70%;
+  height: 800px;
   border: 2px solid var(--white);
   border-radius: 30px;
 }

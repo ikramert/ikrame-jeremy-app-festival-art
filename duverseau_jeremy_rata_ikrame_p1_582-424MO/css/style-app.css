@@ -62,7 +62,6 @@ main {
 }
 
 .filter-bar {
-  overflow: hidden;
   margin: 0 15px;
 }
 
@@ -77,6 +76,15 @@ main {
 .button-list li {
   display: inline-block;
   margin-right: 10px;
+}
+
+.swiper-filters .swiper-slides {
+  width: auto;
+}
+
+.swiper-filters button {
+  height: 40px;
+  width: auto;
 }
 
 /*----- Section En Vedette -----*/

@@ -18,12 +18,16 @@ body {
 }
 
 main {
-  padding: 180px;
+  padding: 10%;
 }
 
 .navbar-brand {
   width: 5%;
   height: auto;
+}
+
+.navbar {
+  background-color: var(--primary);
 }
 
 .description-app {

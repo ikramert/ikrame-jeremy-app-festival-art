@@ -5,29 +5,20 @@ const swiperFilters = new Swiper(".swiper-filters", {
   direction: "horizontal",
 });
 
-//Swiper LP
-const swiper = new Swiper(".swiper-screenshots", {
+// Initialisation du Swiper pour les screenshots
+const swiperScreenshots = new Swiper(".swiper-screenshots", {
   slidesPerView: 1,
+  direction: "horizontal",
   centeredSlides: true,
   loop: true,
-
-  breakpoints: {
-    500: {
-      slidesPerView: 1,
-      centeredSlides: true,
-      loop: true,
-    },
-
-    1200: {
-      spaceBetween: 30,
-      slidesPerView: 3,
-      centeredSlides: true,
-      loop: true,
-    },
-  },
-
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    1200: {
+      spacebetween: 30,
+      slidesPerView: 3, // À partir de 1200px, 3 slides à la fois
+    },
   },
 });

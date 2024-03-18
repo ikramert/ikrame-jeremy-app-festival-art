@@ -51,6 +51,9 @@ h2 {
   color: var(--secondary);
   font-size: 3rem;
 }
+.swipertitle {
+  color: var(--secondary);
+}
 
 .faq-question {
   color: var(--secondary);

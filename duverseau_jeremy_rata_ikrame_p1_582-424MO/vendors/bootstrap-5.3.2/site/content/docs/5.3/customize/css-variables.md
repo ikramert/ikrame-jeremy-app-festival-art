@@ -39,7 +39,7 @@ These variables are scoped to our built-in dark mode.
 ```css
 {{< root.inline >}}
 {{- $css := readFile "dist/css/bootstrap.css" -}}
-{{- $match := findRE `\[data-bs-theme=dark\] {([^}]*)}` $css 1 -}}
+/*{{- $match := findRE `\[data-bs-theme=dark\] {([^}]*)}` $css 1 -}}*/;
 {{- if (eq (len $match) 0) -}}
 {{- errorf "Got no matches for [data-bs-theme=dark] in %q!" $.Page.Path -}}
 {{- end -}}

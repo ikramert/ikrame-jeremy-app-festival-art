@@ -105,15 +105,12 @@ main {
   height: 40px;
   width: auto;
 }
-<<<<<<< Updated upstream
-=======
 
 .slide-filtres {
   height: 40px;
   overflow: hidden;
 }
 
->>>>>>> Stashed changes
 .swiper-slides {
   width: auto;
   height: 100%;

@@ -27,8 +27,8 @@ main {
 }
 
 .navbar-brand {
-  width: 5%;
-  height: auto;
+  height: 80px;
+  width: 80px;
 }
 
 .description-app {

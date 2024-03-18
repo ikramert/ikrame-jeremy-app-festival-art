@@ -44,8 +44,8 @@
             aria-expanded="false"
             aria-label="Affichage/masquage de la navigation"
           >
-            <i class="bi bi-list" style="font-size: 2em;"></i>
-        </button>
+            <i class="bi bi-list" style="font-size: 2em"></i>
+          </button>
 
           <!-- Logo -->
           <a class="nav-logo">
@@ -102,24 +102,16 @@
         </header>
         <section class="row swiper-filters">
           <div class="filter-bar swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide slide-filtres" style="margin-right: 0">
               <button type="button" class="btn custom-btn">Toutes</button>
-            </div>
-            <div class="swiper-slide">
               <button type="button" class="btn custom-btn">
                 Installations interavtives
               </button>
-            </div>
-            <div class="swiper-slide">
               <button type="button" class="btn custom-btn">Concerts</button>
-            </div>
-            <div class="swiper-slide">
               <button type="button" class="btn custom-btn">Performances</button>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide slide-filtres" style="margin-left: 0">
               <button type="button" class="btn custom-btn">AR/VR</button>
-            </div>
-            <div class="swiper-slide">
               <button type="button" class="btn custom-btn">
                 Projections/Immersion
               </button>
@@ -130,108 +122,118 @@
         <!--Section En Vedette-->
         <section class="container" id="sectionVedette">
           <h2>En Vedette</h2>
-          <div class="row overflow-hidden">
-            <div class="col-4">
-              <a class="card text-bg-dark" href="artwork.html">
-                <img
-                  src="../assets/artworks/universal-everything_transfiguration.gif"
-                  class="card-image"
-                />
-                <div class="gradient-overlay"></div>
-                <div
-                  class="card-img-overlay d-flex flex-column justify-content-end"
-                >
-                  <h5 class="card-title">Transfiguration</h5>
-                  <p class="card-text">Par Universal Everything</p>
-                  <div class="row justify-content-between carteDH">
-                    <div class="col-auto">
-                      <i class="bi bi-calendar-fill"></i> 14 mars 2024
-                    </div>
-                    <div class="col-auto">
-                      <i class="bi bi-clock-fill"></i> 15h30
-                    </div>
-                  </div>
-                  <div
-                    class="d-flex align-items-center justify-content-between carte-info"
-                  >
-                    <div class="d-flex">
-                      <i class="bi bi-person-fill"></i>
-                    </div>
-                    <div class="ml-auto">
-                      <span>Plus d'info</span>
-                      <i class="bi bi-chevron-right"></i>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-4">
-              <a class="card text-bg-dark" href="artwork.html">
-                <img
-                  src="../assets/artworks/humanized-technology_alejandro_sacristan.gif"
-                  class="card-image"
-                />
-                <div class="gradient-overlay"></div>
-                <div
-                  class="card-img-overlay d-flex flex-column justify-content-end"
-                >
-                  <h5 class="card-title">Humanized Technology</h5>
-                  <p class="card-text">Par Alejandro Sacristán</p>
-                  <div class="row justify-content-between carteDH">
-                    <div class="col-auto">
-                      <i class="bi bi-calendar-fill"></i> 22 mars 2024
-                    </div>
-                    <div class="col-auto">
-                      <i class="bi bi-clock-fill"></i> 14h00
-                    </div>
-                  </div>
-                  <div
-                    class="d-flex align-items-center justify-content-between carte-info"
-                  >
-                    <div class="d-flex">
-                      <i class="bi bi-person-fill"></i>
-                    </div>
-                    <div class="ml-auto">
-                      <span>Plus d'info</span>
-                      <i class="bi bi-chevron-right"></i>
-                    </div>
+          <div class="swiper-featured-artworks">
+            <div class="row overflow-hidden">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="col-4">
+                    <a class="card text-bg-dark" href="artwork.html">
+                      <img
+                        src="../assets/artworks/universal-everything_transfiguration.gif"
+                        class="card-image"
+                      />
+                      <div class="gradient-overlay"></div>
+                      <div
+                        class="card-img-overlay d-flex flex-column justify-content-end"
+                      >
+                        <h5 class="card-title">Transfiguration</h5>
+                        <p class="card-text">Par Universal Everything</p>
+                        <div class="row justify-content-between carteDH">
+                          <div class="col-auto">
+                            <i class="bi bi-calendar-fill"></i> 14 mars 2024
+                          </div>
+                          <div class="col-auto">
+                            <i class="bi bi-clock-fill"></i> 15h30
+                          </div>
+                        </div>
+                        <div
+                          class="d-flex align-items-center justify-content-between carte-info"
+                        >
+                          <div class="d-flex">
+                            <i class="bi bi-person-fill"></i>
+                          </div>
+                          <div class="ml-auto">
+                            <span>Plus d'info</span>
+                            <i class="bi bi-chevron-right"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
                   </div>
                 </div>
-              </a>
-            </div>
-            <div class="col-4">
-              <a class="card text-bg-dark" href="artwork.html">
-                <img
-                  src="../assets/artworks/refik-anadol_casa-batllo.jpg"
-                  class="card-image"
-                />
-                <div class="gradient-overlay"></div>
-                <div
-                  class="card-img-overlay d-flex flex-column justify-content-end"
-                >
-                  <h5 class="card-title">Refik Anadol</h5>
-                  <p class="card-text">Casa Batlló</p>
-                  <div class="row justify-content-between carteDH">
-                    <div class="col-auto">
-                      <i class="bi bi-calendar-fill"></i> 14 mars 2024
-                    </div>
-                    <div class="col-auto">
-                      <i class="bi bi-clock-fill"></i> 15h30
-                    </div>
-                  </div>
-                  <div
-                    class="d-flex align-items-center justify-content-between carte-info"
-                  >
-                    <div class="d-flex">
-                      <i class="bi bi-person-fill"></i>
-                    </div>
-                    <div class="ml-auto">
-                      <span>Plus d'info</span>
-                      <i class="bi bi-chevron-right"></i>
-                    </div>
+                <div class="swiper-slide">
+                  <div class="col-4">
+                    <a class="card text-bg-dark" href="artwork.html">
+                      <img
+                        src="../assets/artworks/humanized-technology_alejandro_sacristan.gif"
+                        class="card-image"
+                      />
+                      <div class="gradient-overlay"></div>
+                      <div
+                        class="card-img-overlay d-flex flex-column justify-content-end"
+                      >
+                        <h5 class="card-title">Humanized Technology</h5>
+                        <p class="card-text">Par Alejandro Sacristán</p>
+                        <div class="row justify-content-between carteDH">
+                          <div class="col-auto">
+                            <i class="bi bi-calendar-fill"></i> 22 mars 2024
+                          </div>
+                          <div class="col-auto">
+                            <i class="bi bi-clock-fill"></i> 14h00
+                          </div>
+                        </div>
+                        <div
+                          class="d-flex align-items-center justify-content-between carte-info"
+                        >
+                          <div class="d-flex">
+                            <i class="bi bi-person-fill"></i>
+                          </div>
+                          <div class="ml-auto">
+                            <span>Plus d'info</span>
+                            <i class="bi bi-chevron-right"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
                   </div>
                 </div>
-              </a>
+                <div class="swiper-slide">
+                  <div class="col-4">
+                    <a class="card text-bg-dark" href="artwork.html">
+                      <img
+                        src="../assets/artworks/refik-anadol_casa-batllo.jpg"
+                        class="card-image"
+                      />
+                      <div class="gradient-overlay"></div>
+                      <div
+                        class="card-img-overlay d-flex flex-column justify-content-end"
+                      >
+                        <h5 class="card-title">Refik Anadol</h5>
+                        <p class="card-text">Casa Batlló</p>
+                        <div class="row justify-content-between carteDH">
+                          <div class="col-auto">
+                            <i class="bi bi-calendar-fill"></i> 14 mars 2024
+                          </div>
+                          <div class="col-auto">
+                            <i class="bi bi-clock-fill"></i> 15h30
+                          </div>
+                        </div>
+                        <div
+                          class="d-flex align-items-center justify-content-between carte-info"
+                        >
+                          <div class="d-flex">
+                            <i class="bi bi-person-fill"></i>
+                          </div>
+                          <div class="ml-auto">
+                            <span>Plus d'info</span>
+                            <i class="bi bi-chevron-right"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>

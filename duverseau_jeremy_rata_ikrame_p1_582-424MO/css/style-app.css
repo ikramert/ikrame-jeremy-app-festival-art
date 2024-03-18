@@ -96,10 +96,24 @@ main {
   margin-right: 10px;
 }
 
+.swiper-filters {
+  height: 40px;
+  width: auto;
+  margin: 0;
+}
 .swiper-filters button {
   height: 40px;
   width: auto;
 }
+<<<<<<< Updated upstream
+=======
+
+.slide-filtres {
+  height: 40px;
+  overflow: hidden;
+}
+
+>>>>>>> Stashed changes
 .swiper-slides {
   width: auto;
   height: 100%;
@@ -116,8 +130,14 @@ main {
 
 /*----- Section En Vedette -----*/
 #sectionVedette {
-  width: 140%;
+  overflow: hidden;
 }
+
+.swiper-featured-artworks {
+  width: auto;
+}
+
+
 
 .card-image {
   height: 400px;
@@ -169,6 +189,8 @@ main {
   font-size: 0.7em;
   color: var(--orange);
 }
+
+
 
 /*----- Section Autres -----*/
 #sectionAutres {

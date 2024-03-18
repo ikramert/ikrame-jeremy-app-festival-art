@@ -10,24 +10,26 @@ const swiperFilters = new Swiper(".swiper-filters", {
 
 /// ------------- LANDING PAGE -------------
 
-const swiper = new Swiper(".swiper", {
-  // Optional parameters
-  direction: "vertical",
+// Initialisation du Swiper pour les screenshots
+const swiperScreenshots = new Swiper(".swiper-screenshots", {
+  slidesPerView: 1,
+  direction: "horizontal",
+  centeredSlides: true,
   loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-  },
-
-  // Navigation arrows
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
+  breakpoints: {
+    1200: {
+      spacebetween: 30,
+      slidesPerView: 3, // À partir de 1200px, 3 slides à la fois
+    },
   },
+});
+
+const swiperVedette = new Swiper(".swiper-featured-artworks", {
+  direction: "horizontal",
+  freeMode: true,
+  slidesPerView: 2,
 });

@@ -5,6 +5,8 @@ const swiperFilters = new Swiper(".swiper-filters", {
   direction: "horizontal",
 });
 
+/// ------------- LANDING PAGE -------------
+
 // Initialisation du Swiper pour les screenshots
 const swiperScreenshots = new Swiper(".swiper-screenshots", {
   slidesPerView: 1,

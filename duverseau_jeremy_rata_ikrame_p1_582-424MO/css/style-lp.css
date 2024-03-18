@@ -31,6 +31,10 @@ main {
   width: 80px;
 }
 
+.app-container {
+  margin-top: 25%;
+}
+
 .description-app {
   font-size: 1.3rem;
 }
@@ -47,6 +51,7 @@ h2 {
   font-weight: bolder;
 }
 
+/*----- Changements des textes -----*/
 .titreapp {
   color: var(--secondary);
   font-size: 3rem;

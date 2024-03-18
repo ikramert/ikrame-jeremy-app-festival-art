@@ -2,6 +2,7 @@
 
 // swiper-filters
 const swiperFilters = new Swiper(".swiper-filters", {
+<<<<<<< Updated upstream
   direction: "horizontal",
 });
 
@@ -30,4 +31,9 @@ const swiper = new Swiper(".swiper-screenshots", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+=======
+  slidesPerView: "auto",
+  spaceBetween: 15,
+
+>>>>>>> Stashed changes
 });

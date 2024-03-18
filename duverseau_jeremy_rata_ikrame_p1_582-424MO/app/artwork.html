@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>artfutura app</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/style-app.css" />
+    <link
+    rel="stylesheet"
+    href="./scss/custom_bootstrap.scss"
+    type="text/sass"
+  />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-light fixed-top artwork">
+        <div class="container">
+          <!-- chevron -->
+          <a href="index.html" class="nav-chevron">
+            <i class="bi bi-chevron-left"></i>
+          </a>
+
+          <!-- Logo 
+          <a class="nav-logo">
+            <img src="../assets/logo/logo_festival.png" class="nav-logo-img" />
+          </a>-->
+
+          <!-- coeur -->
+          <a>
+            <i class="bi bi-heart-fill"></i>
+          </a>
+
+          <!-- Navigation -->
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--Artwork-->
+      <div class="container-fluid artwork-hero">
+        <div class="col-12">
+          <img
+            src="../assets/artworks/universal-everything_transfiguration.gif"
+            class="artwork-hero"
+          />
+        </div>
+      </div>
+
+      <!--Section Artiste-->
+      <section class="container artwork-page-content">
+        <header class="artwork-header">
+          <h1>Transfiguration</h1>
+          <div class="row header-info">
+            <div class="col-auto">
+              <i class="bi bi-geo-alt"></i> Monument national
+            </div>
+            <div class="col-auto">
+              <i class="bi bi-calendar-fill"></i> 14 mars 2024
+            </div>
+          </div>
+        </header>
+        <div class="col artwork-card-section">
+          <div class="card artwork-artist-card">
+            <img src="../assets/artists/universal_everything_artist.jpg" />
+            <div class="card-body">
+              <h5 class="card-title">Universal Everything</h5>
+              <p class="card-text">
+                Nous sommes un collectif d'artistes des médias, de designers
+                d'expérience et de créateurs de futur. Notre approche affirmant
+                la vie, positive pour l'avenir et axée sur le public inspire
+                toutes nos collaborations, œuvres d'art et prototypes.
+              </p>
+              <a>Plus d'info<i class="bi bi-chevron-right"></i></a>
+            </div>
+          </div>
+          <div class="col-auto separation">
+            <h3>À propos de l'oeuvre</h3>
+          </div>
+          <div class="txt-apropos">
+            <p>Vidéo</p>
+            <p>Durée - 6:25</p>
+          </div>
+          <div class="accordion artwork-accordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Réserver votre place
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Courriel</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="nom@example.com">
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Prénom</label>
+                      <input class="form-control">
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Nom</label>
+                      <input class="form-control">
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Date</label>
+                      <input type="date" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-secondary">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6">
+            <p>
+              Projet fictif réalisé dans le cadre du cours Optimisation Web
+              582-424MO. UI de l'app créé par Jérémy Duverseau.
+            </p>
+          </div>
+          <div class="col-12 col-sm-6 tim-colone">
+            <img
+              src="https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg"
+              alt="Logo TIM"
+              class="tim-logo"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

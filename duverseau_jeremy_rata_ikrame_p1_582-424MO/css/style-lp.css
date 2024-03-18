@@ -21,13 +21,13 @@ main {
   padding: 10%;
 }
 
+.navbar {
+  background-color: var(--primary);
+}
+
 .navbar-brand {
   width: 5%;
   height: auto;
-}
-
-.navbar {
-  background-color: var(--primary);
 }
 
 .description-app {
@@ -40,8 +40,22 @@ main {
 
 /*----- Section Hero -----*/
 
-h1 {
-  padding-top: 5%;
+h1,
+h2 {
+  padding-top: 3%;
+}
+
+.titreapp {
+  color: var(--secondary);
+  font-size: 3rem;
+}
+
+.faq-question {
+  color: var(--secondary);
+}
+
+.accordion-header {
+  padding-top: 0;
 }
 
 .text-fonctionnalites,
@@ -49,13 +63,16 @@ h1 {
   color: var(--secondary);
 }
 
-.ensavoirplus-btn,
-.telecharger-btn {
+.btn-lg {
   background-color: var(--primary);
+  color: var(--white);
   border: 2px solid white;
-  color: var(--secondary);
   margin-left: 2%;
   margin-top: 4%;
+}
+.hover-effect:hover {
+  background-color: var(--secondary);
+  color: var(--dark);
 }
 
 .mobile-frame iframe {
@@ -97,17 +114,24 @@ h1 {
   background-size: cover;
   background-position: center;
   margin-top: 10%;
+  opacity: 0.7;
 }
 
 .infolettre-content-container {
+  background-color: var(--info);
   width: 50%;
-  background-color: var(--secondary);
+  padding: 2%;
+}
+.pinfolettre {
+  padding: 3% 5%;
   color: var(--dark);
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 20px;
 }
 /*----- Section Footer -----*/
+
+footer {
+  background-color: #0f182b;
+}
+
 footer p > a[href="https://github.com/ikramert/ikrame-jeremy-app-festival-art/tree/main"]
 {
   text-decoration: underline;

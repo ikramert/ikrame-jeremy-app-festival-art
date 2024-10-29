@@ -1,789 +1,612 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="robots" content="noindex, nofollow" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="scss/custom.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/style-lp.css" />
-    <link rel="stylesheet" href="./scss/custom_bootstrap.scss" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
-  </head>
-  <!-- Section Navbar -->
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <?xml version="1.0" encoding="UTF-8"?>
-            <svg
-              id="Calque_2"
-              data-name="Calque 2"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 463.36 300.18"
-            >
-              <defs>
-                <style>
-                  .cls-1 {
-                    fill: #efa73e;
-                    stroke-width: 0px;
-                  }
-                </style>
-              </defs>
-              <g id="Calque_1-2" data-name="Calque 1">
-                <path
-                  class="cls-1"
-                  d="m370.56,67.2v46.8h48.8v67.2h-48.8v118.8h-73.6V0h166.4v67.2h-92.8Z"
-                />
-                <g>
-                  <polygon
-                    class="cls-1"
-                    points="0 300.18 92 300.18 163.48 181.55 81.91 180.89 0 300.18"
-                  />
-                  <polygon
-                    class="cls-1"
-                    points="206 .18 81.95 180.84 177.36 158.52 204.8 112.98 205.6 112.98 205.6 151.92 205.73 151.89 205.73 181.89 205.6 181.89 205.6 300.18 282 300.18 282 .18 206 .18"
-                  />
-                  <polygon
-                    class="cls-1"
-                    points="81.73 180.89 81.91 180.89 81.95 180.84 81.73 180.89"
-                  />
-                  <polygon
-                    class="cls-1"
-                    points="177.36 158.52 163.48 181.55 206.73 181.89 206.73 151.89 177.36 158.52"
-                  />
-                </g>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="scss/custom.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/style-lp.css" />
+  <link rel="stylesheet" href="./scss/custom_bootstrap.scss" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<!-- Section Navbar -->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <?xml version="1.0" encoding="UTF-8"?>
+          <svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 463.36 300.18">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: #efa73e;
+                  stroke-width: 0px;
+                }
+              </style>
+            </defs>
+            <g id="Calque_1-2" data-name="Calque 1">
+              <path class="cls-1" d="m370.56,67.2v46.8h48.8v67.2h-48.8v118.8h-73.6V0h166.4v67.2h-92.8Z" />
+              <g>
+                <polygon class="cls-1" points="0 300.18 92 300.18 163.48 181.55 81.91 180.89 0 300.18" />
+                <polygon class="cls-1"
+                  points="206 .18 81.95 180.84 177.36 158.52 204.8 112.98 205.6 112.98 205.6 151.92 205.73 151.89 205.73 181.89 205.6 181.89 205.6 300.18 282 300.18 282 .18 206 .18" />
+                <polygon class="cls-1" points="81.73 180.89 81.91 180.89 81.95 180.84 81.73 180.89" />
+                <polygon class="cls-1" points="177.36 158.52 163.48 181.55 206.73 181.89 206.73 151.89 177.36 158.52" />
               </g>
-            </svg>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="container-lg">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#appli"
-                    >L'appli</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#fonctionnalites"
-                    >Fonctionnalités</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#faq">Foire aux questions</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#section-testimonials"
-                    >Témoignages</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#infolettre">Infolettre</a>
-                </li>
-              </ul>
-            </div>
+            </g>
+          </svg>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="container-lg">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#appli">L'appli</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#fonctionnalites">Fonctionnalités</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">Foire aux questions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-testimonials">Témoignages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#infolettre">Infolettre</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </nav>
-    </header>
-    <main>
-      <!-- Section Hero -->
-      <section class="hero px-lg-5 py-5">
-        <!-- Section appli -->
-        <section id="appli">
-          <section id="lappli" class="container">
-            <div class="row">
-              <div class="col-lg-6 mt-4 mt-lg-0">
-                <div class="container app-container">
-                  <h1 class="titreapp">Artfutura</h1>
-                  <p class="description-app">
-                    Découvrez le futur de l'art au bout de vos doigts avec notre
-                    application Futura. Simplifiez votre expérience et explorez
-                    le festival d'art en toute facilité.
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Section Hero -->
+    <section class="hero px-lg-5 py-5">
+      <!-- Section appli -->
+      <section id="appli">
+        <section id="lappli" class="container">
+          <div class="row">
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <div class="container app-container">
+                <h1 class="titreapp">Artfutura</h1>
+                <p class="description-app">
+                  Découvrez le futur de l'art au bout de vos doigts avec notre
+                  application Futura. Simplifiez votre expérience et explorez
+                  le festival d'art en toute facilité.
+                </p>
+                <a href="#fonctionnalites" class="btn btn-lg ensavoirplus-btn">En savoir plus</a>
+                <a href="https://www.apple.com/app-store/" class="btn btn-lg telecharger-btn"
+                  target="_blank">Télécharger</a>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-4 mt-lg-0 mx-auto">
+              <div class="mobile-frame d-flex justify-content-center align-items-center">
+                <iframe src="./app/index.html" frameborder="0" scrolling="yes"></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <!-- Section fonctionnalites -->
+    <section id="fonctionnalites">
+      <!-- Section Features -->
+      <section id="section-features" class="mt-5 mb-5 py-5">
+        <div class="container">
+          <!-- Première rangée pour le titre et le paragraphe -->
+          <div class="row">
+            <div class="col">
+              <h2 class="text-center text-fonctionnalites">
+                Nos Fonctionnalités
+              </h2>
+              <p class="appinfo text-center">
+                Découvrez toutes les fonctionnalités de notre application et
+                vivez une expérience immersive au Futura Festival !
+              </p>
+            </div>
+          </div>
+          <!-- Deuxième rangée pour les six colonnes -->
+          <div class="row">
+            <!-- Colonnes pour les fonctionnalités -->
+            <!-- Première fonctionnalité : Notifications -->
+            <div class="col-md-6 col-lg-4 mt-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-bell fs-3 me-3"></i>
+                    <h5 class="card-title mb-0">Notifications</h5>
+                  </div>
+                  <p class="card-text">
+                    Restez informé en temps réel de tous les événements du
+                    Futura Festival grâce à nos notifications !
                   </p>
-                  <a href="#fonctionnalites" class="btn btn-lg ensavoirplus-btn"
-                    >En savoir plus</a
-                  >
-                  <a
-                    href="https://www.apple.com/app-store/"
-                    class="btn btn-lg telecharger-btn"
-                    target="_blank"
-                    >Télécharger</a
-                  >
-                </div>
-              </div>
-              <div class="col-lg-6 mt-4 mt-lg-0 mx-auto">
-                <div
-                  class="mobile-frame d-flex justify-content-center align-items-center"
-                >
-                  <iframe
-                    src="./app/index.html"
-                    frameborder="0"
-                    scrolling="yes"
-                  ></iframe>
                 </div>
               </div>
             </div>
-          </section>
-        </section>
-      </section>
-      <!-- Section fonctionnalites -->
-      <section id="fonctionnalites">
-        <!-- Section Features -->
-        <section id="section-features" class="mt-5 mb-5 py-5">
-          <div class="container">
-            <!-- Première rangée pour le titre et le paragraphe -->
-            <div class="row">
-              <div class="col">
-                <h2 class="text-center text-fonctionnalites">
-                  Nos Fonctionnalités
-                </h2>
-                <p class="appinfo text-center">
-                  Découvrez toutes les fonctionnalités de notre application et
-                  vivez une expérience immersive au Futura Festival !
-                </p>
-              </div>
-            </div>
-            <!-- Deuxième rangée pour les six colonnes -->
-            <div class="row">
-              <!-- Colonnes pour les fonctionnalités -->
-              <!-- Première fonctionnalité : Notifications -->
-              <div class="col-md-6 col-lg-4 mt-4 mb-4">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="d-flex align-items-center">
-                      <i class="bi bi-bell fs-3 me-3"></i>
-                      <h5 class="card-title mb-0">Notifications</h5>
-                    </div>
-                    <p class="card-text">
-                      Restez informé en temps réel de tous les événements du
-                      Futura Festival grâce à nos notifications !
-                    </p>
+
+            <!-- Deuxième fonctionnalité : Séances -->
+            <div class="col-md-6 col-lg-4 mt-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-calendar fs-3 me-3"></i>
+                    <h5 class="card-title mb-0">Séances</h5>
                   </div>
+                  <p class="card-text">
+                    Assistez à des séances éducatives exclusives sur l'art via
+                    notre application au Futura Festival !
+                  </p>
                 </div>
               </div>
+            </div>
 
-              <!-- Deuxième fonctionnalité : Séances -->
-              <div class="col-md-6 col-lg-4 mt-4 mb-4">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="d-flex align-items-center">
-                      <i class="bi bi-calendar fs-3 me-3"></i>
-                      <h5 class="card-title mb-0">Séances</h5>
-                    </div>
-                    <p class="card-text">
-                      Assistez à des séances éducatives exclusives sur l'art via
-                      notre application au Futura Festival !
-                    </p>
+            <!-- Troisième fonctionnalité : Catalogue -->
+            <div class="col-md-6 col-lg-4 mt-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-journal fs-3 me-3"></i>
+                    <h5 class="card-title mb-0">Catalogue</h5>
                   </div>
+                  <p class="card-text">
+                    Découvrez le catalogue artistique et laissez-vous inspirer
+                    par une variété d'œuvres interactives !
+                  </p>
                 </div>
               </div>
+            </div>
 
-              <!-- Troisième fonctionnalité : Catalogue -->
-              <div class="col-md-6 col-lg-4 mt-4 mb-4">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="d-flex align-items-center">
-                      <i class="bi bi-journal fs-3 me-3"></i>
-                      <h5 class="card-title mb-0">Catalogue</h5>
-                    </div>
-                    <p class="card-text">
-                      Découvrez le catalogue artistique et laissez-vous inspirer
-                      par une variété d'œuvres interactives !
-                    </p>
+            <!-- Quatrième fonctionnalité : Planifiez votre visite -->
+            <div class="col-md-6 col-lg-4 mt-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-map fs-3 me-3"></i>
+                    <h5 class="card-title mb-0">Planifiez votre visite</h5>
                   </div>
+                  <p class="card-text">
+                    Consultez les horaires et créez votre itinéraire
+                    personnalisé en quelques clics.
+                  </p>
                 </div>
               </div>
+            </div>
 
-              <!-- Quatrième fonctionnalité : Planifiez votre visite -->
-              <div class="col-md-6 col-lg-4 mt-4 mb-4">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="d-flex align-items-center">
-                      <i class="bi bi-map fs-3 me-3"></i>
-                      <h5 class="card-title mb-0">Planifiez votre visite</h5>
-                    </div>
-                    <p class="card-text">
-                      Consultez les horaires et créez votre itinéraire
-                      personnalisé en quelques clics.
-                    </p>
+            <!-- Cinquième fonctionnalité : Billets -->
+            <div class="col-md-6 col-lg-4 mt-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-ticket fs-3 me-3"></i>
+                    <h5 class="card-title mb-0">Billets</h5>
                   </div>
+                  <p class="card-text">
+                    Achetez facilement vos billets en ligne pour le festival.
+                  </p>
                 </div>
               </div>
+            </div>
 
-              <!-- Cinquième fonctionnalité : Billets -->
-              <div class="col-md-6 col-lg-4 mt-4 mb-4">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="d-flex align-items-center">
-                      <i class="bi bi-ticket fs-3 me-3"></i>
-                      <h5 class="card-title mb-0">Billets</h5>
-                    </div>
-                    <p class="card-text">
-                      Achetez facilement vos billets en ligne pour le festival.
-                    </p>
+            <!-- Sixième fonctionnalité : Carte interactive -->
+            <div class="col-md-6 col-lg-4 mt-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-geo-alt fs-3 me-3"></i>
+                    <h5 class="card-title mb-0">Carte interactive</h5>
                   </div>
+                  <p class="card-text">
+                    Trouvez votre chemin dans l'exposition grâce à notre carte
+                    interactive.
+                  </p>
                 </div>
-              </div>
-
-              <!-- Sixième fonctionnalité : Carte interactive -->
-              <div class="col-md-6 col-lg-4 mt-4 mb-4">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="d-flex align-items-center">
-                      <i class="bi bi-geo-alt fs-3 me-3"></i>
-                      <h5 class="card-title mb-0">Carte interactive</h5>
-                    </div>
-                    <p class="card-text">
-                      Trouvez votre chemin dans l'exposition grâce à notre carte
-                      interactive.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Fin du container -->
-        </section>
-        <!-- Fin de la section Features -->
-      </section>
-      <!-- Section Témoignages -->
-      <section id="section-testimonials" class="container py-5">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2 class="text-temoignanes">Témoignages</h2>
-            <p class="text-temoignages">
-              Voici ce que nos utilisateurs ont à dire à propos de notre
-              application.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <!-- 1ère carte de témoignage -->
-          <div
-            class="col-12 col-sm-6 col-lg-4 mb-4 d-flex align-items-center justify-content-center"
-          >
-            <div class="card">
-              <img
-                src="assets/images/jean.jpg"
-                class="card-img-top"
-                alt="Portrait 1"
-                style="height: 20vh; object-fit: cover; object-position: center"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Jean A. Keane</h5>
-                <p class="card-text">
-                  "ArtFutura a vraiment changé ma façon d'explorer le festival
-                  d'art. Je n'ai jamais été aussi facilement immergée dans
-                  l'univers artistique. C'est un must-have pour tous les
-                  amateurs d'art!"
-                </p>
-              </div>
-              <span class="quote-icon">
-                <i class="fas fa-quote-left"></i>
-              </span>
-            </div>
-          </div>
-          <!-- 2ème carte de témoignage -->
-          <div
-            class="col-12 col-sm-6 col-lg-4 mb-4 d-flex align-items-center justify-content-center"
-          >
-            <div class="card">
-              <img
-                src="assets/images/lola.jpg"
-                class="card-img-top"
-                alt="Portrait 2"
-                style="height: 20vh; object-fit: cover; object-position: center"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Lola D. Fuller</h5>
-                <p class="card-text">
-                  "Grâce à ArtFutura, je ne rate aucun chef-d'œuvre lors des
-                  festivals d'art. Cette application intuitive et pratique
-                  facilite grandement la découverte des artistes et des
-                  expositions. Je ne peux plus m'en passer!"
-                </p>
-              </div>
-              <div class="quote-icon"></div>
-            </div>
-          </div>
-          <!-- 3ème carte de témoignage -->
-          <div class="col-12 col-sm-6 col-lg-4 mb-4">
-            <div class="card">
-              <img
-                src="assets/images/marie.jpg"
-                class="card-img-top"
-                alt="Portrait 3"
-                style="height: 20vh; object-fit: cover; object-position: center"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Marie Johnson</h5>
-                <p class="card-text">
-                  "ArtFutura m'a permis de planifier ma visite au festival d'art
-                  de manière efficace et fluide. Son interface conviviale et ses
-                  fonctionnalités pratiques en font un compagnon idéal pour tous
-                  les festivaliers. Je recommande vivement!"
-                </p>
-              </div>
-              <div class="quote-icon"></div>
-            </div>
-          </div>
-          <!-- 4ème carte de témoignage -->
-          <div class="col-12 col-sm-6 col-lg-4 mb-4">
-            <div class="card">
-              <img
-                src="assets/images/joseph.jpg"
-                class="card-img-top"
-                alt="Portrait 4"
-                style="height: 20vh; object-fit: cover; object-position: center"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Joseph Brown</h5>
-                <p class="card-text">
-                  "Naviguer dans un festival d'art peut parfois être écrasant,
-                  mais avec ArtFutura, c'est un jeu d'enfant! Son interface
-                  conviviale et ses fonctionnalités intuitives facilitent
-                  grandement la découverte des expositions et des installations.
-                  Une application incontournable pour tous les passionnés
-                  d'art!"
-                </p>
-              </div>
-              <div class="quote-icon"></div>
-            </div>
-          </div>
-          <!-- 5ème carte de témoignage -->
-          <div class="col-12 col-sm-6 col-lg-4 mb-4">
-            <div class="card">
-              <img
-                src="assets/images/dike.jpg"
-                class="card-img-top"
-                alt="Portrait 5"
-                style="height: 20vh; object-fit: cover; object-position: center"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Dike Chinwendu</h5>
-                <p class="card-text">
-                  "ArtFutura est bien plus qu'une simple application de
-                  navigation. Elle m'a ouvert les portes d'un monde artistique
-                  que je ne soupçonnais même pas. Grâce à elle, j'ai découvert
-                  des artistes incroyables et des œuvres qui m'ont profondément
-                  touché. Une véritable révélation pour moi!"
-                </p>
-              </div>
-              <div class="quote-icon"></div>
-            </div>
-          </div>
-          <!-- 6ème carte de témoignage -->
-          <div class="col-12 col-sm-6 col-lg-4 mb-4">
-            <div class="card">
-              <img
-                src="assets/images/jesus.jpg"
-                class="card-img-top"
-                alt="Portrait 6"
-                style="height: 20vh; object-fit: cover; object-position: center"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Jesualdo Orta Loera</h5>
-                <p class="card-text">
-                  "ArtFutura a transformé mon expérience au festival d'art en
-                  une véritable aventure immersive. Grâce à ses fonctionnalités
-                  intuitives, j'ai pu explorer les expositions et découvrir de
-                  nouveaux artistes de manière ludique et enrichissante. Une
-                  application incontournable pour tous les passionnés d'art!"
-                </p>
-              </div>
-              <div class="quote-icon"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Section FAQ -->
-      <section id="faq" class="container py-5 mt-4">
-        <h2 class="text-center faq-question">FAQ - Foire aux questions</h2>
-        <p class="text-faq text-center">
-          Découvrez les réponses à vos questions les plus fréquentes dans notre
-          section FAQ.
-        </p>
-        <div class="accordion" id="faqAccordion">
-          <!-- Question 1 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="question1">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapse1"
-                aria-expanded="false"
-                aria-controls="collapse1"
-              >
-                Comment télécharger l'application ?
-              </button>
-            </h2>
-            <div
-              id="collapse1"
-              class="accordion-collapse collapse"
-              aria-labelledby="question1"
-              data-bs-parent="#faqAccordion"
-            >
-              <div class="accordion-body">
-                L'application Futura Festival est disponible au téléchargement
-                sur les principales plateformes de téléchargement d'applications
-                mobiles telles que l'App Store pour les appareils iOS et Google
-                Play Store pour les appareils Android. Vous pouvez rechercher
-                "Futura Festival" dans le magasin d'applications correspondant
-                et télécharger l'application gratuitement.
-              </div>
-            </div>
-          </div>
-
-          <!-- Question 2 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="question2">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapse2"
-                aria-expanded="false"
-                aria-controls="collapse2"
-              >
-                Comment fonctionnent les notifications en temps réel pour les
-                événements du festival ?
-              </button>
-            </h2>
-            <div
-              id="collapse2"
-              class="accordion-collapse collapse"
-              aria-labelledby="question2"
-              data-bs-parent="#faqAccordion"
-            >
-              <div class="accordion-body">
-                Les notifications en temps réel pour les événements du Futura
-                Festival sont activées par défaut dans l'application une fois
-                que vous l'avez installée et que vous avez autorisé les
-                notifications. Vous recevrez des notifications pour les
-                événements programmés, les changements d'horaire, les mises à
-                jour importantes et d'autres informations pertinentes liées au
-                festival.
-              </div>
-            </div>
-          </div>
-
-          <!-- Question 3 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="question3">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapse3"
-                aria-expanded="false"
-                aria-controls="collapse3"
-              >
-                Comment participer aux séances éducatives exclusives disponibles
-                via l'application ?
-              </button>
-            </h2>
-            <div
-              id="collapse3"
-              class="accordion-collapse collapse"
-              aria-labelledby="question3"
-              data-bs-parent="#faqAccordion"
-            >
-              <div class="accordion-body">
-                Pour créer un itinéraire personnalisé dans l'application Futura
-                Festival, vous pouvez parcourir la liste des événements et des
-                activités disponibles. Ensuite, vous pouvez sélectionner les
-                événements que vous souhaitez ajouter à votre itinéraire en
-                cliquant sur le bouton "Ajouter à l'itinéraire" ou similaire.
-                Une fois que vous avez ajouté tous vos événements préférés, vous
-                pouvez consulter votre itinéraire personnalisé pour planifier
-                votre visite au festival.
-              </div>
-            </div>
-          </div>
-
-          <!-- Question 4 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="question4">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapse4"
-                aria-expanded="false"
-                aria-controls="collapse4"
-              >
-                Comment contacter le support technique en cas de problème avec
-                l'application ?
-              </button>
-            </h2>
-            <div
-              id="collapse4"
-              class="accordion-collapse collapse"
-              aria-labelledby="question4"
-              data-bs-parent="#faqAccordion"
-            >
-              <div class="accordion-body">
-                Si vous rencontrez des problèmes techniques avec l'application
-                Futura Festival, vous pouvez contacter notre équipe d'assistance
-                technique en envoyant un e-mail à support@futurafestival.com ou
-                en utilisant le formulaire de contact disponible dans
-                l'application. Notre équipe se fera un plaisir de vous aider à
-                résoudre tout problème que vous pourriez rencontrer.
-              </div>
-            </div>
-          </div>
-          <!-- Question 5 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="question5">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapse5"
-                aria-expanded="false"
-                aria-controls="collapse5"
-              >
-                Comment partager mes expériences et mes découvertes du festival
-                via l'application sur les réseaux sociaux ?
-              </button>
-            </h2>
-            <div
-              id="collapse5"
-              class="accordion-collapse collapse"
-              aria-labelledby="question5"
-              data-bs-parent="#faqAccordion"
-            >
-              <div class="accordion-body">
-                Pour partager vos expériences et vos découvertes du Futura
-                Festival sur les réseaux sociaux via l'application, vous pouvez
-                utiliser la fonction de partage intégrée. Après avoir assisté à
-                un événement ou découvert une œuvre qui vous a plu, recherchez
-                l'option de partage dans l'application et choisissez le réseau
-                social sur lequel vous souhaitez partager. Vous pouvez également
-                inclure un commentaire ou une légende pour accompagner votre
-                publication avant de la partager avec vos amis et abonnés.
-              </div>
-            </div>
-          </div>
-          <!-- Question 6 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="question6">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapse6"
-                aria-expanded="false"
-                aria-controls="collapse6"
-              >
-                Comment utiliser la carte interactive pour trouver des œuvres
-                spécifiques dans l'exposition ?
-              </button>
-            </h2>
-            <div
-              id="collapse6"
-              class="accordion-collapse collapse"
-              aria-labelledby="question6"
-              data-bs-parent="#faqAccordion"
-            >
-              <div class="accordion-body">
-                Pour utiliser la carte interactive dans l'application Futura
-                Festival, vous pouvez accéder à la section "Carte" ou "Plan" de
-                l'application. Sur la carte, vous verrez une représentation
-                graphique de l'emplacement des différentes œuvres et
-                installations dans l'exposition. Vous pouvez zoomer et faire
-                défiler la carte pour explorer les différents espaces du
-                festival. En cliquant sur une icône ou une zone spécifique de la
-                carte, vous pourrez obtenir plus d'informations sur les œuvres
-                exposées à cet endroit. Cette fonctionnalité vous aidera à
-                naviguer facilement dans l'exposition et à trouver les œuvres
-                spécifiques que vous souhaitez découvrir.
               </div>
             </div>
           </div>
         </div>
+        <!-- Fin du container -->
       </section>
+      <!-- Fin de la section Features -->
+    </section>
+    <!-- Section Témoignages -->
+    <section id="section-testimonials" class="container py-5">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="text-temoignanes">Témoignages</h2>
+          <p class="text-temoignages">
+            Voici ce que nos utilisateurs ont à dire à propos de notre
+            application.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <!-- 1ère carte de témoignage -->
+        <div class="col-12 col-sm-6 col-lg-4 mb-4 d-flex align-items-center justify-content-center">
+          <div class="card">
+            <img src="assets/images/jean.jpg" class="card-img-top" alt="Portrait 1"
+              style="height: 20vh; object-fit: cover; object-position: center" />
+            <div class="card-body">
+              <h5 class="card-title">Jean A. Keane</h5>
+              <p class="card-text">
+                "ArtFutura a vraiment changé ma façon d'explorer le festival
+                d'art. Je n'ai jamais été aussi facilement immergée dans
+                l'univers artistique. C'est un must-have pour tous les
+                amateurs d'art!"
+              </p>
+            </div>
+            <span class="quote-icon">
+              <i class="fas fa-quote-left"></i>
+            </span>
+          </div>
+        </div>
+        <!-- 2ème carte de témoignage -->
+        <div class="col-12 col-sm-6 col-lg-4 mb-4 d-flex align-items-center justify-content-center">
+          <div class="card">
+            <img src="assets/images/lola.jpg" class="card-img-top" alt="Portrait 2"
+              style="height: 20vh; object-fit: cover; object-position: center" />
+            <div class="card-body">
+              <h5 class="card-title">Lola D. Fuller</h5>
+              <p class="card-text">
+                "Grâce à ArtFutura, je ne rate aucun chef-d'œuvre lors des
+                festivals d'art. Cette application intuitive et pratique
+                facilite grandement la découverte des artistes et des
+                expositions. Je ne peux plus m'en passer!"
+              </p>
+            </div>
+            <div class="quote-icon"></div>
+          </div>
+        </div>
+        <!-- 3ème carte de témoignage -->
+        <div class="col-12 col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="assets/images/marie.jpg" class="card-img-top" alt="Portrait 3"
+              style="height: 20vh; object-fit: cover; object-position: center" />
+            <div class="card-body">
+              <h5 class="card-title">Marie Johnson</h5>
+              <p class="card-text">
+                "ArtFutura m'a permis de planifier ma visite au festival d'art
+                de manière efficace et fluide. Son interface conviviale et ses
+                fonctionnalités pratiques en font un compagnon idéal pour tous
+                les festivaliers. Je recommande vivement!"
+              </p>
+            </div>
+            <div class="quote-icon"></div>
+          </div>
+        </div>
+        <!-- 4ème carte de témoignage -->
+        <div class="col-12 col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="assets/images/joseph.jpg" class="card-img-top" alt="Portrait 4"
+              style="height: 20vh; object-fit: cover; object-position: center" />
+            <div class="card-body">
+              <h5 class="card-title">Joseph Brown</h5>
+              <p class="card-text">
+                "Naviguer dans un festival d'art peut parfois être écrasant,
+                mais avec ArtFutura, c'est un jeu d'enfant! Son interface
+                conviviale et ses fonctionnalités intuitives facilitent
+                grandement la découverte des expositions et des installations.
+                Une application incontournable pour tous les passionnés
+                d'art!"
+              </p>
+            </div>
+            <div class="quote-icon"></div>
+          </div>
+        </div>
+        <!-- 5ème carte de témoignage -->
+        <div class="col-12 col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="assets/images/dike.jpg" class="card-img-top" alt="Portrait 5"
+              style="height: 20vh; object-fit: cover; object-position: center" />
+            <div class="card-body">
+              <h5 class="card-title">Dike Chinwendu</h5>
+              <p class="card-text">
+                "ArtFutura est bien plus qu'une simple application de
+                navigation. Elle m'a ouvert les portes d'un monde artistique
+                que je ne soupçonnais même pas. Grâce à elle, j'ai découvert
+                des artistes incroyables et des œuvres qui m'ont profondément
+                touché. Une véritable révélation pour moi!"
+              </p>
+            </div>
+            <div class="quote-icon"></div>
+          </div>
+        </div>
+        <!-- 6ème carte de témoignage -->
+        <div class="col-12 col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="assets/images/jesus.jpg" class="card-img-top" alt="Portrait 6"
+              style="height: 20vh; object-fit: cover; object-position: center" />
+            <div class="card-body">
+              <h5 class="card-title">Jesualdo Orta Loera</h5>
+              <p class="card-text">
+                "ArtFutura a transformé mon expérience au festival d'art en
+                une véritable aventure immersive. Grâce à ses fonctionnalités
+                intuitives, j'ai pu explorer les expositions et découvrir de
+                nouveaux artistes de manière ludique et enrichissante. Une
+                application incontournable pour tous les passionnés d'art!"
+              </p>
+            </div>
+            <div class="quote-icon"></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <!----- Section Voir plus ------->
-      <section class="container" id="view-more">
-        <!-- Slider main container -->
-        <div class="swiper swiper-screenshots">
-          <h2 class="swiper-title">Prévisualisez l'interface de l'appli</h2>
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-              <img src="./assets/screenshots_app/acceuil.png" alt="#" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/screenshots_app/bas_de_page.png" alt="#" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/screenshots_app/artwork.png" alt="#" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/screenshots_app/burgermenu.png" alt="#" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/screenshots_app/mi-page_artwork.png" alt="#" />
+    <!-- Section FAQ -->
+    <section id="faq" class="container py-5 mt-4">
+      <h2 class="text-center faq-question">FAQ - Foire aux questions</h2>
+      <p class="text-faq text-center">
+        Découvrez les réponses à vos questions les plus fréquentes dans notre
+        section FAQ.
+      </p>
+      <div class="accordion" id="faqAccordion">
+        <!-- Question 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="question1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+              aria-expanded="false" aria-controls="collapse1">
+              Comment télécharger l'application ?
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="question1"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              L'application Futura Festival est disponible au téléchargement
+              sur les principales plateformes de téléchargement d'applications
+              mobiles telles que l'App Store pour les appareils iOS et Google
+              Play Store pour les appareils Android. Vous pouvez rechercher
+              "Futura Festival" dans le magasin d'applications correspondant
+              et télécharger l'application gratuitement.
             </div>
           </div>
-          <!-- Navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
         </div>
-      </section>
 
-      <!-- Section infolettre -->
-      <div class="container-fluid" id="infolettre">
-        <div class="row">
-          <div class="col-12 text-center text-md-start p-4 infolettre">
-            <div class="row">
-              <div
-                class="col-12 col-md-6 offset-md-6 infolettre-content-container"
-              >
-                <h2 class="text-center">Infolettre</h2>
-                <p class="pinfolettre">
-                  Abonnez-vous à notre infolettre pour recevoir des nouvelles
-                  sur les mises-à-jour et nouvelles fonctionnalités de
-                  l'application, en plus de recevoir en avant-première les
-                  détails des prochaines éditions du festival.
-                </p>
-                <button
-                  type="button"
-                  class="btn-lg btnabonner"
-                  data-bs-toggle="modal"
-                  data-bs-target="#infolettreModal"
-                >
-                  <i
-                    class="bi bi-envelope-fill me-2"
-                    style="font-size: 1.2rem"
-                  ></i>
-                  Je m'abonne
-                </button>
-              </div>
+        <!-- Question 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="question2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+              Comment fonctionnent les notifications en temps réel pour les
+              événements du festival ?
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="question2"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Les notifications en temps réel pour les événements du Futura
+              Festival sont activées par défaut dans l'application une fois
+              que vous l'avez installée et que vous avez autorisé les
+              notifications. Vous recevrez des notifications pour les
+              événements programmés, les changements d'horaire, les mises à
+              jour importantes et d'autres informations pertinentes liées au
+              festival.
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="question3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+              Comment participer aux séances éducatives exclusives disponibles
+              via l'application ?
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="question3"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Pour créer un itinéraire personnalisé dans l'application Futura
+              Festival, vous pouvez parcourir la liste des événements et des
+              activités disponibles. Ensuite, vous pouvez sélectionner les
+              événements que vous souhaitez ajouter à votre itinéraire en
+              cliquant sur le bouton "Ajouter à l'itinéraire" ou similaire.
+              Une fois que vous avez ajouté tous vos événements préférés, vous
+              pouvez consulter votre itinéraire personnalisé pour planifier
+              votre visite au festival.
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="question4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+              Comment contacter le support technique en cas de problème avec
+              l'application ?
+            </button>
+          </h2>
+          <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="question4"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Si vous rencontrez des problèmes techniques avec l'application
+              Futura Festival, vous pouvez contacter notre équipe d'assistance
+              technique en envoyant un e-mail à support@futurafestival.com ou
+              en utilisant le formulaire de contact disponible dans
+              l'application. Notre équipe se fera un plaisir de vous aider à
+              résoudre tout problème que vous pourriez rencontrer.
+            </div>
+          </div>
+        </div>
+        <!-- Question 5 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="question5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+              Comment partager mes expériences et mes découvertes du festival
+              via l'application sur les réseaux sociaux ?
+            </button>
+          </h2>
+          <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="question5"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Pour partager vos expériences et vos découvertes du Futura
+              Festival sur les réseaux sociaux via l'application, vous pouvez
+              utiliser la fonction de partage intégrée. Après avoir assisté à
+              un événement ou découvert une œuvre qui vous a plu, recherchez
+              l'option de partage dans l'application et choisissez le réseau
+              social sur lequel vous souhaitez partager. Vous pouvez également
+              inclure un commentaire ou une légende pour accompagner votre
+              publication avant de la partager avec vos amis et abonnés.
+            </div>
+          </div>
+        </div>
+        <!-- Question 6 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="question6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+              Comment utiliser la carte interactive pour trouver des œuvres
+              spécifiques dans l'exposition ?
+            </button>
+          </h2>
+          <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="question6"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Pour utiliser la carte interactive dans l'application Futura
+              Festival, vous pouvez accéder à la section "Carte" ou "Plan" de
+              l'application. Sur la carte, vous verrez une représentation
+              graphique de l'emplacement des différentes œuvres et
+              installations dans l'exposition. Vous pouvez zoomer et faire
+              défiler la carte pour explorer les différents espaces du
+              festival. En cliquant sur une icône ou une zone spécifique de la
+              carte, vous pourrez obtenir plus d'informations sur les œuvres
+              exposées à cet endroit. Cette fonctionnalité vous aidera à
+              naviguer facilement dans l'exposition et à trouver les œuvres
+              spécifiques que vous souhaitez découvrir.
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- La modal -->
-      <div
-        class="modal fade"
-        id="infolettreModal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="infolettreModalLabel"
-        aria-hidden="true"
-      >
-        <div
-          class="modal-dialog modal-dialog-centered modal-lg"
-          role="document"
-        >
-          <div class="modal-content">
-            <!-- En-tête de la modal -->
-            <div class="modal-header">
-              <h5 class="modal-title" id="infolettreModalLabel">
-                Restez informé !
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <!-- Corps de la modal -->
-            <div class="modal-body">
-              <form>
-                <div class="form-group">
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="bi bi-envelope"></i>
-                      </span>
-                    </div>
-                    <input
-                      type="email"
-                      class="form-control"
-                      placeholder="Entrez votre adresse courriel"
-                    />
-                  </div>
-                </div>
-              </form>
-            </div>
-            <!-- Pied de la modal -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-lg btn-inscription">
-                M'inscrire
-              </button>
-              <button
-                type="button"
-                class="btn btn-lg btn-annuler"
-                data-bs-dismiss="modal"
-              >
-                Annuler
+    <!----- Section Voir plus ------->
+    <section class="container" id="view-more">
+      <!-- Slider main container -->
+      <div class="swiper swiper-screenshots">
+        <h2 class="swiper-title">Prévisualisez l'interface de l'appli</h2>
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="./assets/screenshots_app/acceuil.png" alt="#" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/screenshots_app/bas_de_page.png" alt="#" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/screenshots_app/artwork.png" alt="#" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/screenshots_app/burgermenu.png" alt="#" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/screenshots_app/mi-page_artwork.png" alt="#" />
+          </div>
+        </div>
+        <!-- Navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <!-- Section infolettre -->
+    <div class="container-fluid" id="infolettre">
+      <div class="row">
+        <div class="col-12 text-center text-md-start p-4 infolettre">
+          <div class="row">
+            <div class="col-12 col-md-6 offset-md-6 infolettre-content-container">
+              <h2 class="text-center">Infolettre</h2>
+              <p class="pinfolettre">
+                Abonnez-vous à notre infolettre pour recevoir des nouvelles
+                sur les mises-à-jour et nouvelles fonctionnalités de
+                l'application, en plus de recevoir en avant-première les
+                détails des prochaines éditions du festival.
+              </p>
+              <button type="button" class="btn-lg btnabonner" data-bs-toggle="modal" data-bs-target="#infolettreModal">
+                <i class="bi bi-envelope-fill me-2" style="font-size: 1.2rem"></i>
+                Je m'abonne
               </button>
             </div>
           </div>
         </div>
       </div>
-    </main>
+    </div>
 
-    <!-- Section Footer -->
-    <footer
-      class="text-center mt-5 p-4 d-lg-flex justify-content-lg-between align-items-lg-center"
-    >
-      <p class="text-lg-start">
-        Ikrame Rata <br />
-        Jérémy Duverseau <br />
-      </p>
-      <p class="text-lg-end">
-        <a
-          href="https://github.com/ikramert/ikrame-jeremy-app-festival-art/tree/main"
-          >Lien vers le projet sur GitHub</a
-        >
-        <br />
+    <!-- La modal -->
+    <div class="modal fade" id="infolettreModal" tabindex="-1" role="dialog" aria-labelledby="infolettreModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <!-- En-tête de la modal -->
+          <div class="modal-header">
+            <h5 class="modal-title" id="infolettreModalLabel">
+              Restez informé !
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <!-- Corps de la modal -->
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="bi bi-envelope"></i>
+                    </span>
+                  </div>
+                  <input type="email" class="form-control" placeholder="Entrez votre adresse courriel" />
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- Pied de la modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-lg btn-inscription">
+              M'inscrire
+            </button>
+            <button type="button" class="btn btn-lg btn-annuler" data-bs-dismiss="modal">
+              Annuler
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 
-        &copy; 2024
-      </p>
-    </footer>
+  <!-- Section Footer -->
+  <footer class="text-center mt-5 p-4 d-lg-flex justify-content-lg-between align-items-lg-center">
+    <p class="text-lg-start">
+      Ikrame Rata <br />
+      Jérémy Duverseau <br />
+    </p>
+    <p class="text-lg-end">
+      <a href="https://github.com/ikramert/ikrame-jeremy-app-festival-art/tree/main">Lien vers le projet sur GitHub</a>
+      <br />
 
-    <!-- Scripts JavaScript -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  </body>
+      &copy; 2024
+    </p>
+  </footer>
+
+  <!-- Scripts JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+
+</body>
+
 </html>
